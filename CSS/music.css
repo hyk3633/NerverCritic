@@ -1,0 +1,92 @@
+@charset "utf-8";
+
+/*실사용*/
+
+@font-face {
+	font-family: "pb";
+	src: url("../font/NanumBarunGothic.ttf") format("truetype");
+}
+
+.header {
+	position: relative;
+	width: 700px; 
+	margin: 0 auto;
+	
+}
+
+.nav {
+	background-color: #DF0101; 
+	height: 30px; 
+	padding-top: 25px;
+	text-align: center;
+	line-height: 0px;
+	font-family: pb;
+	
+}
+
+.nav a {
+	font-size: 28px; 
+	color: white; 
+	font-weight: bold; 
+	text-decoration: none; 
+	text-align: center;
+	margin-left: 30px;
+	letter-spacing: 5px;
+}
+.nav a:hover {
+	color: #151515;
+}
+.nav a:active {
+	color: #FE2E9A;
+}
+
+.player {
+	
+	position: relative;
+	width: 700px;
+	height: 300px;	
+	margin: 20px auto;
+	font-family: pb;
+	font-size: 28px;
+	text-align: center;
+	color: white;
+	
+}
+.player_sec {
+	overflow: hidden;
+}
+
+.mv {
+	position: relative;
+	width: 700px;
+	height: 500px;	
+	margin: 0 auto;
+	margin-bottom: 20px;
+	font-family: pb;
+	line-height: 25px;
+}
+.mv_tag {
+	color: #2E9AFE;
+	font-size: 14px;
+}
+.mv_title {
+	color: white;
+	font-size: 22px;
+}
+.mv_view {
+	color: #A4A4A4;
+	font-size: 15px;
+}
+
+.copyright {
+	background-color: #DF0101; 
+	position: relative; 
+	text-align: center;
+	width: 700px; 
+	height: 100px;
+	margin: 0 auto;
+	margin-bottom:;
+	line-height: 25px;
+	color: white;
+	
+}

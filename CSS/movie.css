@@ -1,0 +1,143 @@
+@charset "utf-8";
+
+/*실사용*/
+
+@font-face {
+	font-family: "mv";
+	src: url("../font/cinema.ttf") format("truetype");
+}
+@font-face {
+	font-family: "ns";
+	src: url("../font/NanumSquare_acR.ttf") format("truetype");
+}
+
+.header {
+	background-color: #585858;
+	position: relative;
+	width: 1460px; 
+	margin: 0 auto;
+}
+
+.nav {
+	background-color: #585858; 
+	height: 30px; 
+	padding-top: 15px;
+	text-align: center;
+	line-height: 0px;
+	font-family: mv;
+}
+
+.nav a {
+	font-size: 28px; 
+	color: white; 
+	font-weight: bold; 
+	text-decoration: none; 
+	text-align: center;
+	margin-left: 30px;
+	letter-spacing: 5px;
+}
+.nav a:hover {
+	color: #FACC2E;
+}
+.nav a:active {
+	color: #FFFF00;
+}
+
+.logo {
+	margin-left: 20px;
+	margin-top: 10px;
+}
+
+.middle {
+	background-color: #585858; 
+	position: relative;
+	margin: 0 auto;
+	color: white;
+	width: 1460px;
+	height: 600px;
+}
+
+.middle_table {
+	width: 1460px;
+	height: 600px;
+	font-family: ns;
+	border-spacing: 20px;
+	
+	
+}
+
+.desc {
+	background-color: white;
+	position: relative;
+	width: 1460px;
+	height: 500px;
+	margin: 0 auto;
+	font-family: pb;
+}
+.desc_view {
+	background-color: white;
+	width: 730px;
+	height: 500px;
+	float: left;
+}
+.desc_table {
+	padding: 10px; 
+	border-spacing: 10px; 
+	margin-left: 20px;
+	font-family: ns;
+	color: #585858;
+}
+.desc_summ {
+	width: 730px;
+	height: 500px;
+	font-family: mv; 
+	line-height: 25px;
+	float: left;
+	font-size: 18px;
+}
+
+.photo {
+	background-color: #585858;
+	width: 1460px;
+	height: 1450px;
+	position: relative;
+	margin: 0 auto;
+	color: white;
+	font-family: ns;
+	padding-top: 1px;
+}
+
+.photo_table {
+	border-spacing: 10px;
+	text-align: center; 
+	margin: auto;
+}
+
+.square {
+	width: 100px;
+	height: 100px;
+	border-radius: 10px;
+	background-color: #01DF3A;
+	text-align: center;
+	font-size: 28px;
+}
+
+.circle {
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	background-color: #01DF3A;
+	text-align: center;
+	font-size: 28px;
+}
+
+.copyright {
+	position: relative; 
+	text-align: center;
+	width: 750px; 
+	height: 100px;
+	margin: 0 auto;
+	margin-bottom:;
+	line-height: 25px;
+	color: white;
+}

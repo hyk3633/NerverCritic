@@ -1,0 +1,143 @@
+@charset "utf-8";
+
+/*실사용*/
+
+@font-face {
+	font-family: "dm";
+	src: url("../font/DungGeunMo.ttf") format("truetype");
+}
+@font-face {
+	font-family: "nm";
+	src: url("../font/neodgm.ttf") format("truetype");
+}
+@font-face {
+	font-family: "ns";
+	src: url("../font/NanumSquare_acR.ttf") format("truetype");
+}
+
+.header { 
+	position: relative;
+	width: 900px; 
+	height: 270px;
+	margin: 0 auto;
+}
+
+.top{
+	background-color: rgba(64,75,89,0.3);
+	position: relative;
+	width: 900px; 
+	height: 70px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.top_item {
+	font-family: ns;
+	width: 300px;
+	height: 100px;
+	float: left;
+	color: white;
+	line-height: 25px;
+	font-size: 22px;
+	color: #A9A9F5;
+	text-align: center;
+	margin-top: 10px;
+}
+.top_item_font {
+	font-size: 18px;
+}
+
+.trailer {
+	background-color: black;
+	position: relative;
+	width: 900px;
+	height: 400px;
+	margin: 0 auto;	
+	text-align: center;
+}
+
+.view {
+	position: relative;
+	width: 900px;
+	height: 450px;	
+	margin: 0 auto;
+}
+.view_section{
+	background-color: rgba(64,75,89,0.5);
+	width: 800px;
+	height: 450px;
+	font-family: nm;
+	font-size: 15px;
+	color: #a1b0bd;
+	line-height: 20px;
+	letter-spacing: 0.5px;
+}
+.view_aside{
+	background-color: #151f2b; 
+	position: absolute; 
+	margin-top : 0;
+	top: 0; 
+	right: 0; 
+	width: 200px;
+	height: 450px;
+	font-family: nm; 
+}
+.nav { 
+	text-align: center;
+	line-height: 50px;
+}
+.nav a {
+	font-size: 36px; 
+	font-family: nm;
+	color: #A9A9F5; 
+	text-decoration: none; 
+	text-align: center;
+	letter-spacing: 5px;
+}
+.nav a:hover {
+	color: #58FAF4;
+}
+.nav a:active {
+	color: #0404B4;
+}
+
+.screenshot {
+	position: relative;
+	width: 900px; 
+	margin: 0 auto;
+}
+.screenshot_item {
+	text-align: center; 
+	margin: auto;
+	margin-top: 20px;
+}
+
+.spec{
+	position: relative;
+	width: 900px; 
+	margin: 0 auto;
+	overflow: hidden;
+}
+.spec_item {
+	width: 450px;
+	height: 300px;
+	float: left;
+	color: #acb2b8;
+	font-family: ns;
+	line-height: 22px;
+}
+.spec_font {
+	color: grey;
+}
+
+
+.copyright {
+	background-color: #1B2838; 
+	position: relative; 
+	text-align: center;
+	width: 900px; 
+	margin: 0 auto;
+	margin-bottom: 50px;
+	line-height: 25px;
+	color: white;
+}
+

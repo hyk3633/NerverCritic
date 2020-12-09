@@ -1,0 +1,120 @@
+@charset "utf-8";
+
+/*실사용*/
+
+@font-face {
+	font-family: "pb";
+	src: url("../font/pen.ttf") format("truetype");
+}
+
+.header {
+	position: relative;
+	width: 750px; 
+	margin: 0 auto;
+	border-left: 2px solid #b3b736;
+	border-right: 2px solid #b3b736;
+}
+
+.nav {
+	background-color: #678b3f; 
+	height: 30px; 
+	padding-top: 25px;
+	text-align: center;
+	line-height: 0px;
+	font-family: pb;
+	border: 2px solid #b3b736;
+}
+
+.nav a {
+	font-size: 28px; 
+	color: white; 
+	font-weight: bold; 
+	text-decoration: none; 
+	text-align: center;
+	margin-left: 30px;
+	letter-spacing: 5px;
+}
+.nav a:hover {
+	color: #b3b736;
+}
+.nav a:active {
+	color: #325b48;
+}
+
+.saying {
+	
+	position: relative;
+	width: 750px; 
+	margin: 0 auto;
+	font-family: pb;
+	font-size: 28px;
+	text-align: center;
+	color: #b3b736;
+	border-left: 2px solid #b3b736;
+	border-right: 2px solid #b3b736;
+}
+.saying_sec {
+	overflow: hidden;
+}
+
+.genre {
+	background-color: #678b3f;
+	position: relative;
+	width: 750px; 
+	margin: 0 auto;
+	text-align: center;
+	font-size: 36px;
+	font-family: pb;
+	color: white;
+	border: 2px solid #b3b736;
+}
+
+.introduce {
+	position: relative;
+	width: 750px;
+	margin: 0 auto;
+	font-family: pb;
+	border: 2px solid #b3b736;
+	color: #b3b736;
+}
+.introduce_sec {
+	overflow: hidden;
+}
+.introduce_item {
+	width: 350px;
+	height: 525px;
+	float: left;
+	font-size: 18px;
+	line-height: 25px;
+	text-align: left;
+}
+.introduce_summary {
+	padding-top: 5px;
+	padding-left: 10px;
+	width: 750px;
+	height: 445px;
+	
+}
+
+details {
+	width: 750px;
+	cursor: pointer;
+	padding-top: 1px;
+	line-height: 25px;
+}
+details > summary {
+	padding: 10px;
+}
+
+.copyright {
+	background-color: #678b3f; 
+	position: relative; 
+	text-align: center;
+	width: 750px; 
+	height: 100px;
+	margin: 0 auto;
+	margin-bottom:;
+	line-height: 25px;
+	color: white;
+	border: 2px solid #b3b736;
+}

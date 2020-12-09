@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="description" content="NeverCritic">
+	<meta name="keywords" content="영화, 게임, 책, 음악, game, movie, book, music, 영화 소식, 영화 정보">
+	
+	<link rel="stylesheet" type="text/css" href="CSS/main.css">
+	
+	<style>
+		body{
+			margin: 0;
+			padding: 0;
+			background-color: #585858;
+		}
+	</style>
+	
+	<title>NeverCritic Movie</title>
+</head>
+
+<body>
+
+	<!--사이트 타이틀 및 상단 메뉴-->
+	<div> <!-- 글씨 크게, 커스텀 폰트, 색깔 각각 다르게 -->
+		<header class="header">
+			<p style="text-align: center; margin-top: 0;">
+				<a href="Main.html">
+					<img src="images/movie_logo.png" align="center"; width="250px;">
+				</a>
+				<font color="white"></font>
+			</p>
+			
+			<nav class="nav">
+				<a href="Game.html">GAME</a>
+				<a href="Main.html">MOVIE</a>
+				<a href="Music.html">MUSIC</a>
+				<a href="Book.html">BOOK</a>
+			</nav>
+		</header>
+	</div>
+	
+	<!-- 영화포스터 -->
+	<div class="middle">
+		<table class="movie">
+			<tr> <!-- 각 포스터 클릭 시 해당 영화 상세페이지로 이동 -->
+				<td>
+					<a href="HTML/movie_1917.html">
+						<img class="zoom" src="images/1917.jpg" width="220px;" height="345px;">
+					</a>
+				</td>
+				<td>
+					<a href="HTML/movie_greenbook.html">
+						<img class="zoom" src="images/green_book.jpg" width="220px;" height="345px;">
+					</a>
+				</td>
+				<td>
+					<a href="HTML/movie_infinitywar.html">
+						<img class="zoom" src="images/infinity_war.jpg" width="220px;" height="345px;">
+					</a>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<a href="HTML/movie_joker.html">
+						<img class="zoom" src="images/joker.jpg" width="220px;" height="345px;">
+					</a>
+				</td>
+				<td>
+					<a href="HTML/movie_themanstandingnext.html">
+						<img class="zoom" src="images/the_man_standing_next.jpg" width="220px;" height="345px;">
+					</a>
+				</td>
+				<td>
+					<a href="HTML/movie_ralph.html">
+						<img class="zoom" src="images/wreck_it_ralph.jpg" width="220px;" height="345px;">
+					</a>
+				</td>
+			</tr>
+		</table>
+	</div>
+	
+	<!-- 개봉예정기대작 -->
+	<div class="upcoming">
+		<h3 style="margin-left: 20px;">개봉예정기대작</h3>
+		
+		<table border=3 cellspacing=0 width="900px;">
+			<tr>
+				<th colspan="3">테넷</th>
+			</tr>
+			<tr>
+				<td rowspan="3" width="430px;"><img src="images/tenet.jpg" width="430px;" height="246px;"></td>
+			</tr>
+			<tr align="center">
+				<td height="50px;" width="100px;">개봉예정일</td>
+				<td height="50px;">2020.07.30</td>
+			</tr>
+			<tr align="center">
+				<td width="100px;">내용</td>
+				<td>
+				주인공은 '테넷'이라는 단어 하나만을 무기로 <br>
+				지닌 채 전 세계의 생존을 위해 싸운다.<br>
+				실시간을 넘어서는 '어딘가'에서 펼쳐질 임무를<br>
+				수행하기 위해 비밀스러운 국제 스파이계를<br>
+				누빈다.
+				</td>
+			</tr>
+		</table>
+		
+		<table border=3 cellspacing=0 width="900px;">
+			<tr>
+				<th colspan="3">닥터스트레인지 인 멀티버스 오브 매드니스</th>
+			</tr>
+			<tr>
+				<td rowspan="3" width="430px;"><img src="images/doctor_strange_2.jpg" width="430px;" height="246px;"></td>
+			</tr>
+			<tr align="center">
+				<td height="50px;" width="100px;">개봉예정일</td>
+				<td height="50px;">2022.03.25 (미국)</td>
+			</tr>
+			<tr align="center">
+				<td width="100px;">내용</td>
+				<td>
+				닥터스트레인지의 두번째 시리즈 이자<br>
+				MCU 사상 최초의 호러 영화.<br>
+				영화의 내용은 아직 공개되지 않았다.<br>
+				</td>
+			</tr>
+		</table>
+		
+		<table border=3 cellspacing=0 width="900px;">
+			<tr>
+				<th colspan="3">저스티스 리그 스나이더 컷</th>
+			</tr>
+			<tr>
+				<td rowspan="3" width="430px;"><img src="images/justice_league.jpg" width="430px;" height="246px;"></td>
+			</tr>
+			<tr align="center">
+				<td height="50px;" width="100px;">개봉예정일</td>
+				<td height="50px;">2021 (미정)</td>
+			</tr>
+			<tr align="center">
+				<td width="100px;">내용</td>
+				<td>
+				17년에 개봉했던 저스티스리그는 감독을 맡았던<br>
+				잭스나이더가 가정사로 하차하면서 조스 웨던<br>
+				감독이 재촬영을 했다.<br>
+				스나이더컷은 잭스나이더가 촬영했던 <br>
+				분량으로만 다시 제작되는 감독판이다.<br>
+				</td>
+			</tr>
+		</table>
+
+	</div>
+	
+	<!-- 위시리스트 예고편 / 간격 띄우기-->
+	<div class="wishlist">
+		<h3 style="margin-left: 20px;">위시리스트</h3>
+		<section>
+			<figure style="border-spacing: 45px;">
+				<iframe width="380px;" height="200px;" src="https://www.youtube.com/embed/c7mypsyhLfA" frameborder="0" style="margin-right: 50px;" allowfullscreen></iframe>
+				<iframe width="380px;" height="200px;" src="https://www.youtube.com/embed/oKurZkEzQII" frameborder="0" allowfullscreen></iframe>
+			</figure>
+		</section>
+	</div>
+	
+	<!-- 영화계 소식 -->
+	<div class="news">
+		<h3 style="margin-left: 20px;">영화 소식</h3>
+		<article class="news_article">
+			<section">
+				<p><a href="HTML/news_carnage.html">
+				<img src="images/carnage.jpg" width="180px;" height="120px;" style="float: left; margin-right: 10px;">
+				<b>히어로무비 소식</b><br>
+				<이터널스>, <토르3>, <베놈2> 등 주간 히어로무비 소식<br>
+				<베놈2> 의 예고편의 내용을 설명하는 글이 나와 주목을 받고 있다.<br>
+				카니지를 중심으로 둔 예고편으로, 다양한 카니지의 모습과, 베놈의 액션도<br>
+				어느 정도 볼 수 있는 매력적인 예고편이라고 하는데...<br>
+				</a></p>
+			</section>
+			<br><br>
+			<section>
+				<p><a href="HTML/news_oscar.html">
+				<img src="images/oscar.jpg" width="180px;" height="120px;" style="float: left; margin-right: 10px;" >
+				<b>한국영화 화제의 소식</b><br>
+				봉준호 <기생충> 오스카 4관왕 달성!!!<br>
+				한국인 최초로 오스카를 수상한 봉준호 감독은 국제영화상, 감독상 등<br>
+				연이어 영화계 상들을 싹쓸이 했다. <기생충> 이 이뤄낸 수십개의 <br>
+				수상기록들을 알아보자...<br>
+				</a></p>
+			</section>
+			<br><br><br>
+		</article>
+		
+	</div>
+	
+	<!-- COPYRIGHT -->
+	<div class="copyright">
+		<footer>
+			<font style="font-size: 12px;">이용약관 | 개인정보처리방침 | 책임의 한계와 법적고지 | 영화 고객센터</font><br>
+			<font style="font-size: 10px; color: grey;">본 컨텐츠의 저작권은 저작권자 또는 제공처에 있으며, 이를 무단 이용하는 경우 저작권법 등에 따라 법적 책임을 질 수 있습니다.</font><br>
+				<b>NeverCritic Copyright © All Rights Reserved.</b>
+			</footer>
+	</div>
+	
+</body>
+
+</html>

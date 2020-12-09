@@ -1,0 +1,82 @@
+@charset "utf-8";
+
+/*실사용*/
+
+@font-face {
+	font-family: "ns";
+	src: url("../font/NanumSquare_acR.ttf") format("truetype");
+}
+
+.header {
+	background-color: #585858;
+	position: relative;
+	width: 900px; 
+	margin: 0 auto;
+	height: 70px;
+}
+
+.nav {
+	background-color: #585858; 
+	height: 30px; 
+	padding-top: 10px;
+	line-height: 60px;
+	margin-left: 30px;
+}
+
+.nav a {
+	font-size: 24px; 
+	color: white; 
+	font-weight: bold; 
+	text-decoration: none; 
+	text-align: center;
+	font-family: ns; 
+
+}
+.nav a:hover {
+	color: #FFBF00;
+}
+
+.nav a:active {
+	color: #FFFF00;
+}
+
+.div_content {
+	position: relative;
+	width: 900px; 
+	margin: 0 auto;
+	font-family: ns;
+	font-size: 18px;
+	line-height: 25px;
+}
+
+.copyright {
+	background-color: #585858; 
+	position: relative; 
+	text-align: center;
+	width: 900px; 
+	margin: 0 auto;
+	margin-bottom: 50px;
+	line-height: 25px;
+	color: white;
+}
+
+.logo {
+	margin-left: 20px;
+	margin-top: 10px;
+}
+
+
+.copyright {
+	background-color: #585858; 
+	position: relative; 
+	text-align: center;
+	width: 900px; 
+	margin: 0 auto; 
+	color: white
+}
+
+
+
+
+/*details > summary {background: #A4A4A4; padding: 3px 10px;}
+details > summary::-webkit-details-marker {display: none}*/

@@ -1,0 +1,138 @@
+@charset "utf-8";
+
+/*실사용*/
+
+@font-face {
+	font-family: "ns";
+	src: url("../font/NanumSquare_acR.ttf") format("truetype");
+}
+
+.header {
+	background-color: #585858; 
+	position: relative;
+	width: 900px; 
+	margin: 0 auto;
+}
+
+.nav {
+	background-color: #585858; 
+	height: 30px; 
+	padding-top: 15px;
+	text-align: center;
+	line-height: 0px;
+}
+
+.nav a {
+	font-size: 28px; 
+	font-family: ns;
+	color: white; 
+	font-weight: bold; 
+	text-decoration: none; 
+	text-align: center;
+	font-family: ns;
+	margin-left: 30px;
+	letter-spacing: 5px;
+}
+
+.nav a:hover {
+	color: #FACC2E;
+}
+
+.nav a:active {
+	color: #FFFF00;
+}
+
+.middle {
+	background-color: #D8D8D8; 
+	position: relative; 
+	width: 900px; 
+	margin: 0 auto;
+}
+
+.movie {
+	border-spacing: 45px;
+	text-align: center; 
+	margin: auto;
+}
+
+.zoom:hover {
+	-webkit-transform: scale(1.2);
+	transform: scale(1.2);
+	transition: transform .3s;
+}
+.zoom img {
+	width: 100%;
+	transition: transform .3s;
+}
+
+.wishlist {
+	background-color: #D8D8D8;
+	position: relative;
+	width: 900px; 
+	height: 320px;
+	margin: 0 auto;
+	padding-top: 1px;
+	padding-bottom: 10px;
+	font-family: ns;
+}
+
+.news {
+	background-color: #D8D8D8;
+	position: relative;
+	width: 900px; 
+	margin: 0 auto;
+	padding-top: 1px;
+	padding-bottom: 10px;
+	font-family: ns;
+	line-height: 23px;
+}
+.news_article{
+	margin: 0 10px;
+}
+.news_article a{
+	text-decoration: none; 
+	color: black;
+}
+.news_article :hover{
+	color: blue;
+}
+.news_article :active{
+	color: green;
+}
+
+.upcoming {
+	background-color: #D8D8D8;
+	position: relative;
+	width: 900px; 
+	margin: 0 auto;
+	padding-top: 1px;
+	font-family: ns;
+	line-height: 23px;
+}
+
+.copyright {
+	background-color: #585858; 
+	position: relative; 
+	text-align: center;
+	width: 900px; 
+	margin: 0 auto;
+	margin-bottom: 50px;
+	line-height: 25px;
+	color: white;
+}
+
+.section_img 
+{
+	width: 430px; 
+	height: 246px;
+}
+
+.section_content
+{
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 570px; 
+	height: 246px;
+}
+

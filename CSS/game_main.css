@@ -1,0 +1,107 @@
+@charset "utf-8";
+
+/*실사용*/
+
+@font-face {
+	font-family: "nm";
+	src: url("../font/neodgm.ttf") format("truetype");
+}
+@font-face {
+	font-family: "ns";
+	src: url("../font/NanumSquare_acR.ttf")
+}
+
+.header {
+	background-color: #585858; 
+	position: relative;
+	width: 1060px; 
+	margin: 0 auto;
+}
+
+.nav {
+	background-color: #585858; 
+	height: 30px; 
+	padding-top: 15px;
+	text-align: center;
+	line-height: 0px;
+}
+
+.nav a {
+	font-size: 28px; 
+	font-family: ns;
+	color: white; 
+	font-weight: bold; 
+	text-decoration: none; 
+	text-align: center;
+	font-family: ns;
+	margin-left: 30px;
+	letter-spacing: 5px;
+}
+
+.nav a:hover {
+	color: #58ACFA;
+}
+
+.nav a:active {
+	color: #5858FA;
+}
+
+.middle {
+	background-color: #D8D8D8; 
+	position: relative; 
+	width: 1060px; 
+	margin: 0 auto;
+}
+
+.game {
+	border-spacing: 45px;
+	text-align: center; 
+	margin: auto;
+}
+
+.zoom:hover {
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1);
+	transition: transform .3s;
+}
+.zoom img {
+	width: 100%;
+	transition: transform .3s;
+}
+
+.upcoming {
+	background-color: #D8D8D8;
+	position: relative;
+	width: 1000px;
+	margin: 0 auto;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	padding-left: 30px;
+	padding-right: 30px;
+}
+.upcoming_banner {
+	overflow: hidden;
+	text-align: center;
+	font-family: nm;
+}
+.upcoming_view {
+	width: 500px;
+	height: 300px;
+	float: left;
+	color: black;
+	font-family: nm;
+	font-size: 16px;
+	line-height: 22px;
+}
+
+.copyright {
+	position: relative; 
+	text-align: center;
+	width: 1060px; 
+	margin: 0 auto;
+	padding-bottom: 50px;
+	padding-top: 30px;
+	line-height: 25px;
+	color: white;
+}
+
